@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#EEE"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id = "@+id/navigation_drawer"
+    tools:context="com.rs.rishitshah.materialdesignapp.NavigationDrawerFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/text"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/my_recycler_view">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>
